@@ -9,7 +9,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://jade-dolphin-d6f895.netlify.app/",
+    "https://jade-dolphin-d6f895.netlify.app",
 ]
 
 app.add_middleware(
